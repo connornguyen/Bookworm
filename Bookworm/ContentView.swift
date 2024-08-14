@@ -10,18 +10,31 @@ import SwiftUI
 
 
 struct ContentView: View {
+    @Environment(\.modelContext) var modelContext
     
-    
+    @Query var books: [Book]
+    @State private var showingAddingScreen = false
     
     var body: some View {
-        VStack {
-           PushButton(tittle: "HelloWorld", showingButton: $isOn)
-            Text(isOn ? "On" : "Off")
+        NavigationStack {
+            Text("Count: \(books.count)")
+                .navigationTitle("Bookworm")
+                .toolbar {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button("Add Book", systemImage: "plus") {
+                            showingAddingScreen.toggle()
+                        }
+                    }
+                }
+                .sheet(isPresented: $showingAddingScreen) {
+                    AddBookView()
+                }
         }
-        .padding()
     }
 }
 
+//This modelContatiner need to be implement here, in order for preview to work.
 #Preview {
     ContentView()
+        .modelContainer(for: Book.self)
 }
