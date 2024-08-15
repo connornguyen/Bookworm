@@ -15,6 +15,7 @@
 		18D087582C6D5A1B003D9238 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D087572C6D5A1B003D9238 /* AddBookView.swift */; };
 		18D0875A2C6D734F003D9238 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D087592C6D734F003D9238 /* RatingView.swift */; };
 		18D0875C2C6E7A61003D9238 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0875B2C6E7A61003D9238 /* EmojiRatingView.swift */; };
+		18D0875E2C6E7F8C003D9238 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0875D2C6E7F8C003D9238 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		18D087572C6D5A1B003D9238 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		18D087592C6D734F003D9238 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		18D0875B2C6E7A61003D9238 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		18D0875D2C6E7F8C003D9238 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				18D0875B2C6E7A61003D9238 /* EmojiRatingView.swift */,
 				18D087592C6D734F003D9238 /* RatingView.swift */,
 				18D087492C6C2D50003D9238 /* Assets.xcassets */,
+				18D0875D2C6E7F8C003D9238 /* DetailView.swift */,
 				18D0874B2C6C2D50003D9238 /* Preview Content */,
 			);
 			path = Bookworm;
@@ -152,6 +155,7 @@
 				18D087482C6C2D4D003D9238 /* ContentView.swift in Sources */,
 				18D087462C6C2D4D003D9238 /* BookwormApp.swift in Sources */,
 				18D087562C6D58FF003D9238 /* Book.swift in Sources */,
+				18D0875E2C6E7F8C003D9238 /* DetailView.swift in Sources */,
 				18D0875A2C6D734F003D9238 /* RatingView.swift in Sources */,
 				18D0875C2C6E7A61003D9238 /* EmojiRatingView.swift in Sources */,
 				18D087582C6D5A1B003D9238 /* AddBookView.swift in Sources */,
